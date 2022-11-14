@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/index.css"],"sourcesContent":["body {\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,\n    Arial, sans-serif;\n  margin: auto;\n  max-width: 38rem;\n  padding: 2rem;\n}\n"],"names":[],"version":3,"file":"index.61d3354a.css.map","sourceRoot":"/__parcel_source_root/"}

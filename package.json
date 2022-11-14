@@ -3,9 +3,10 @@
   "productName": "Phaser Electron",
   "version": "1.0.0",
   "description": "Phaser template used for creating games, testing, and publshing games on a Desktop environment.",
-  "main": "src/index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "start": "electron-forge start",
+    "build": "parcel build src/index.js src/index.html",
+    "start": "electron-forge start -p dist",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
@@ -23,7 +24,8 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "phaser": "^3.55.2"
+    "phaser": "^3.55.2",
+    "electron":"^21.2.3"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.1",
