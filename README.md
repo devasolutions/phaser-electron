@@ -5,7 +5,9 @@ Phaser template used for creating games, testing, and publshing games on a Deskt
 ## Setting Up
 
 For set up just install dependencies:
-``bash
+
+```bash
+
 yarn
 
-``
+```
